@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:layout_width="594dp"
+        android:layout_height="824dp"
+        android:src="@drawable/list"
+        tools:layout_editor_absoluteY="-5dp"
+        android:layout_marginLeft="-1dp" />
+    
+    <View
+        android:id="@+id/View06"
+        android:layout_width="30dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imagePlayButton2"
+        android:background="#80ffffff" />
+    
+    <ListView
+        android:id="@+id/MusicList"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+    </ListView>
+
+</RelativeLayout>

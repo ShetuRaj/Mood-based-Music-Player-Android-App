@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MusicPlayer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_player">Player</string>
+    <string name="title_activity_first_page">FirstPage</string>
+    <string name="title_activity_mu_sica">MuSica</string>
+
+</resources>

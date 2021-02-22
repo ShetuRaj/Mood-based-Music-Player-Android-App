@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+        <com.flaviofaria.kenburnsview.KenBurnsView
+        android:layout_width="594dp"
+        android:layout_height="824dp"
+        android:src="@drawable/front"
+        tools:layout_editor_absoluteY="-5dp"
+        android:layout_marginLeft="-1dp" />
+
+         <TextView
+             android:id="@+id/textView9"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentTop="true"
+             android:layout_marginRight="53dp"
+             android:layout_marginTop="41dp"
+             android:background="#20BDB76B"
+             android:text="a"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#20B2AA"
+             android:textSize="80dp"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/textView9"
+             android:layout_alignBottom="@+id/textView9"
+             android:layout_toLeftOf="@+id/textView9"
+             android:background="#20BDB76B"
+             android:text="c"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#556B2F"
+             android:textSize="80dp"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView7"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/textView8"
+             android:layout_alignBottom="@+id/textView8"
+             android:layout_toLeftOf="@+id/textView8"
+             android:background="#20BDB76B"
+             android:text="i"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#2F4F4F"
+             android:textSize="80dp"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/textView7"
+             android:layout_alignBottom="@+id/textView7"
+             android:layout_toLeftOf="@+id/textView7"
+             android:background="#20BDB76B"
+             android:text="$"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#B8860B"
+             android:textSize="80dp"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/textView6"
+             android:layout_alignBottom="@+id/textView6"
+             android:layout_toLeftOf="@+id/textView6"
+             android:background="#20BDB76B"
+             android:text="ú"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#2F4F4F"
+             android:textSize="80dp"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/textView5"
+             android:layout_alignBottom="@+id/textView5"
+             android:layout_toLeftOf="@+id/textView5"
+             android:background="#20BDB76B"
+             android:text="M"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#483D8B"
+             android:textSize="80dp"
+             android:textStyle="bold" />
+
+ <TextView
+     android:id="@+id/progress"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_marginBottom="40dp"
+     android:layout_toEndOf="@+id/textView4"
+     android:text="By: Shetu Raj & Anubhav Tikku"
+     android:textColor="#ffffff"
+     android:textStyle="italic" />
+    
+</RelativeLayout>
